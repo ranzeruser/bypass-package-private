@@ -1,4 +1,4 @@
-package com.github.hcsp.encapsulation;
+package com.github.blindpirate.extensions;
 
 import com.github.blindpirate.extensions.CaptureSystemOutputExtension;
 
