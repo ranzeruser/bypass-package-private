@@ -1,7 +1,7 @@
 package com.github.blindpirate.extensions;
 
-public class CaptureSystemCall {
-    public static Object newCaptureSystemCall() {
+public class Bridge {
+    public static Object newCaptureSystemOutputExtension() {
         return new CaptureSystemOutputExtension();
     }
 }
