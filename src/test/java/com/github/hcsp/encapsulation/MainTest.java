@@ -7,7 +7,7 @@ public class MainTest {
     @Test
     public void bypassPackagePrivate() {
         Assertions.assertEquals(
-                "com.github.blindpirate.extensions.Bridge",
+                "com.github.blindpirate.extensions.CaptureSystemOutputExtension",
                 Main.createCaptureSystemOutputExtension().getClass().getName());
         Assertions.assertTrue(
                 org.junit.jupiter.api.extension.BeforeEachCallback.class.isAssignableFrom(
